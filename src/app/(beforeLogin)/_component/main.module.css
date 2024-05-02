@@ -5,7 +5,6 @@
   width: 100dvw;
   height: 100dvh;
 }
-
 .left {
   flex: 1;
   display: flex;
@@ -18,7 +17,6 @@
   flex-direction: column;
   justify-content: center;
 }
-
 .right h1 {
   font-weight: bold;
   font-size: 64px;
@@ -66,24 +64,4 @@
 }
 .login:hover {
   background-color: rgba(29, 155, 240, 0.1);
-}
-@media all and (min-width: 1000px) {
-  .container {
-    flex-direction: row;
-    padding: 0;
-  }
-  .left {
-    flex: 1;
-    justify-content: center;
-  }
-  .left img {
-    width: 450px;
-    height: 550px;
-  }
-  .right {
-    justify-content: center;
-  }
-  .right h1 {
-    font-size: 64px;
-  }
 }
