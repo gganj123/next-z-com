@@ -5,7 +5,7 @@ import cx from "classnames";
 export default function ActionButtons() {
   const commented = true;
   const reposted = true;
-  const liked = false;
+  const liked = true;
 
   const onClickComment = () => {};
   const onClickRepost = () => {};
